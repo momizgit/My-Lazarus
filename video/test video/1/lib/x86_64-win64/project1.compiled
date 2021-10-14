@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1351329191"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiC:\Users\islamm\Desktop\temp\lazarus\video\test video\1\lib\x86_64-win64&quot; -FuC:\lazarus\components\PasLibVlc\Lazarus\lib\x86_64-win64 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\islamm\Desktop\temp\lazarus\video\test video\1\&quot; &quot;-FUC:\Users\islamm\Desktop\temp\lazarus\video\test video\1\lib\x86_64-win64\&quot; &quot;-FEC:\Users\islamm\Desktop\temp\lazarus\video\test video\1\&quot; &quot;-oC:\Users\islamm\Desktop\temp\lazarus\video\test video\1\project1.exe&quot; -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>

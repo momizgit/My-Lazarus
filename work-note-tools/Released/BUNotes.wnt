@@ -1,0 +1,48 @@
+﻿0001 close-I am closing the ticket as per update.<LBR><LBR>Regards,<LBR>Mohammad.
+0001 close-Unable to reach the user. <LBR><LBR>Closing the ticket.
+0002 email-Excellent! good to hear that. 😊 <LBR>Closing the ticket. <LBR>Take care.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>As per our phone conversation, please call me back when available. My number is 0455 958 073.<LBR><LBR>Regards,<LBR>Mohammad<LBR>.
+0002 email-Hi <BR1>,<LBR><LBR>How are you? What is the status of this request? May I have an update?<LBR><LBR>Please confirm and let me know if further help needed, or if I can close the ticket.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>How are you? What is the status of your computer? May I have an update?<LBR><LBR>Please confirm and let me know if further help needed, or if I can close the ticket.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>I am closing the ticket.<LBR><LBR>For any further concerns, Please reply this notification email, or call IT on 1800 027 263.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>I could not find a contact detail for you. Could you provide me with your best contact number, Or call me on 0455 958 073.<LBR><LBR>Regards,<LBR>Mohammad<LBR><LBR>.
+0002 email-Hi <BR1>,<LBR><LBR>I haven't heard from you since my last massage. May I know the status of this request? Shall I close this ticket?<LBR><LBR>Please confirm.<LBR><LBR>Regards,<LBR>Mohammad<LBR><LBR>.
+0002 email-Hi <BR1>,<LBR><LBR>I haven't heard from you since our last phone conversation. May I know the status of this request? Shall I close this ticket?<LBR><LBR>Please confirm.<LBR><LBR>Regards,<LBR>Mohammad<LBR><LBR>.
+0002 email-Hi <BR1>,<LBR><LBR>I hope the last action has fixed the issue. I am closing the ticket now.<LBR>For any further concerns, please reply this notification email, or call IT on 1800 027 263.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>I hope things are well on your end. I could not find any contact detail of you. Could you provide me with the best contact number for you, or could you call me back? My number is 0455 958 073. <LBR><LBR>Regards,<LBR>Mohammad. 
+0002 email-Hi <BR1>,<LBR><LBR>I've spoken to your colleague named <BR2> and found out you are unavailable. Could you call me back when available to discuss this request? My number is 0455 958 073.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>I've tried calling you on <BR2>, could not get through, also could not leave any voice message. Could you provide me with the best contact number for you, or could you call me back? My number is 0455 958 073. <LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR><LBR>I've tried calling you on <BR2>, could not get through, left a voice message to call me back. My number is 0455 958 073.<LBR><LBR>Regards,<LBR>Mohammad.
+0002 email-Hi <BR1>,<LBR>I am closing the ticket for now.<LBR>For any further queires, please contact IT help desk on 1800 027 263 or send an email to ITServices@fbu.com.<LBR><LBR>Regards,<LBR>Mohammad<LBR><LBR>.
+0003update-Update:<LBR>----------<LBR><LBR>
+0003update-Update:<LBR>----------<LBR><LBR>- <BR1><LBR>- <BR2><LBR>- <BR3><LBR>- <BR4><LBR><LBR>
+0003update-Update:<LBR>----------<LBR><LBR>- <BR1><LBR>- Tested OK<LBR>- Closing the ticket.
+0003update-Update:<LBR>----------<LBR><LBR>- I have <BR1>.<LBR>- Monitoring it now.<LBR>- If no further issue, then this ticket will be closed by <BR2>
+0003update-Update:<LBR>----------<LBR><LBR>- I have <BR1>.<LBR>- Now, waiting for a call back.<LBR>- My number is 0455 958 073.<LBR><LBR>.
+0003update-Update:<LBR>----------<LBR><LBR>- I have walked <BR1> through the resolution process.<LBR>- Monitoring it now.<LBR>- If no further issue, then this ticket will be closed by <BR2>
+0003update-Update:<LBR>----------<LBR><LBR>- I have walked the <BR1> through the resolution process<LBR>- Tested OK.<LBR>- Closing the ticket.
+0003update-Update:<LBR>----------<LBR><LBR>- System updated and Tested OK.<LBR>- Closing the ticket.
+0003update-Update:<LBR>----------<LBR><LBR>- System updated and Tested OK.<LBR>- Monitoring it now.<LBR>- If no further issue, then this ticket will be close by <BR1>
+0003update-Update:<LBR>----------<LBR><LBR>Duplicate entry found. Reference# <BR1>.<LBR>We are closing this ticket.<LBR><LBR>
+0003update-Update:<LBR>----------<LBR><LBR>Unable to reach <BR1>.<LBR><LBR>Closing the ticket.<LBR><LBR>.
+0003update-Update:<LBR>----------<LBR><LBR>Waiting on child - task/incident (<BR1>).<LBR>
+cmd       -DISM /Online /Cleanup-Image /CheckHealth
+cmd       -ipconfig /flushdns & route -f & Shutdown -r -t 00 -f
+cmd       -netsh int ip reset reset.log
+cmd       -netsh int ip reset reset.log & ipconfig /flushdns & route -f & Shutdown -r -t 00 -f
+cmd       -netsh winsock reset
+cmd       -rasdial “AlwaysOn VPN AU”
+email-part-Best regards,<LBR>Mohammad
+inc update-RE: Update: <BR1> - <BR2>; <BR3>
+IT  email -<LBR>Please Assign this request to Mohammad in EUC. <LBR>He is helping me with it.<LBR><LBR>
+lenovo    -https://pcsupport.lenovo.com/us/en/
+ps        -DISM /Online /Cleanup-Image /CheckHealth
+ps        -ipconfig /flushdns; route -f; Shutdown -r -t 00 -f
+ps        -ipconfig; devmgmt.msc; ncpa.cpl
+ps        -netsh int ip reset reset.log
+ps        -netsh int ip reset reset.log; ipconfig /flushdns; route -f; Shutdown -r -t 00 -f
+ps        -netsh winsock reset
+ps        -rasdial “AlwaysOn VPN AU”
+ps        -Remove-VpnConnection -Name "AlwaysOn VPN AU" -AllUserConnection
+ps        -Remove-VpnConnectionRoute -ConnectionName "AlwaysOn VPN AU" -DestinationPrefix "192.168.0.0/16" -PassThru
+snow      -!=Resolved

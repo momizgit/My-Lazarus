@@ -1,0 +1,135 @@
+object Form2: TForm2
+  Left = 916
+  Height = 664
+  Top = 278
+  Width = 618
+  BorderStyle = bsToolWindow
+  Caption = 'Net Tools'
+  ClientHeight = 664
+  ClientWidth = 618
+  FormStyle = fsSystemStayOnTop
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 98
+    Top = 8
+    Width = 599
+    Caption = 'Computer'
+    ClientHeight = 78
+    ClientWidth = 595
+    ParentFont = False
+    TabOrder = 0
+    object Edit1: TEdit
+      Left = 50
+      Height = 23
+      Top = 14
+      Width = 194
+      OnEnter = Edit1Enter
+      OnMouseDown = Edit1MouseDown
+      ParentFont = False
+      TabOrder = 1
+      Text = 'Computer name or IP Address'
+    end
+    object Button1: TButton
+      Left = 240
+      Height = 24
+      Top = 13
+      Width = 47
+      Caption = '&GO'
+      OnClick = Button1Click
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      Left = 13
+      Height = 15
+      Top = 47
+      Width = 57
+      Caption = 'Computer:'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 77
+      Height = 15
+      Top = 47
+      Width = 91
+      Caption = 'XXXXXXXXXXXXX'
+      ParentColor = False
+      ParentFont = False
+    end
+    object RadioButton1: TRadioButton
+      Left = 408
+      Height = 19
+      Top = 13
+      Width = 118
+      Caption = 'Remote Computer'
+      Checked = True
+      OnChange = RadioButton1Change
+      TabOrder = 2
+      TabStop = True
+    end
+    object RadioButton2: TRadioButton
+      Left = 408
+      Height = 19
+      Top = 43
+      Width = 105
+      Caption = 'Local Computer'
+      OnChange = RadioButton2Change
+      TabOrder = 3
+    end
+    object Button2: TButton
+      Left = 8
+      Height = 25
+      Top = 12
+      Width = 43
+      Caption = 'Paste'
+      TabOrder = 4
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 504
+    Top = 120
+    Width = 600
+    Caption = 'Commands'
+    ClientHeight = 484
+    ClientWidth = 596
+    ParentFont = False
+    TabOrder = 1
+    object ListBox1: TListBox
+      Left = 8
+      Height = 432
+      Top = 39
+      Width = 272
+      ItemHeight = 0
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ListBox2: TListBox
+      Left = 296
+      Height = 431
+      Top = 40
+      Width = 288
+      ItemHeight = 0
+      TabOrder = 1
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 15
+      Top = 11
+      Width = 100
+      Caption = 'Command Prompt'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 296
+      Height = 15
+      Top = 11
+      Width = 58
+      Caption = 'PowerShell'
+      ParentColor = False
+    end
+  end
+end

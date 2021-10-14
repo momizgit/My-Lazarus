@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 712
+  Height = 102
+  Top = 409
+  Width = 436
+  BorderIcons = []
+  BorderStyle = bsToolWindow
+  Caption = 'Easy Copy'
+  ClientHeight = 102
+  ClientWidth = 436
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 15
+    Top = 16
+    Width = 16
+    Caption = 'C:\'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 15
+    Top = 48
+    Width = 16
+    Caption = 'C:\'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 41
+    Caption = 'Source'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 40
+    Width = 43
+    Caption = 'Dest'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 208
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Copy'
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 280
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Move'
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 352
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Exit'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object SelDir1: TSelectDirectoryDialog
+    left = 224
+    top = 64
+  end
+  object SelDir2: TSelectDirectoryDialog
+    left = 288
+    top = 64
+  end
+end

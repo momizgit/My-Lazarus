@@ -1,0 +1,47 @@
+object TuteSlideDisplayBoard: TTuteSlideDisplayBoard
+  Left = 315
+  Height = 300
+  Top = 601
+  Width = 400
+  BorderStyle = bsNone
+  Caption = 'Tute Slide Display Board'
+  ClientHeight = 300
+  ClientWidth = 400
+  Color = 58880
+  DesignTimePPI = 120
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  LCLVersion = '2.0.10.0'
+  object Image1: TImage
+    Left = 0
+    Height = 232
+    Top = 0
+    Width = 310
+    AutoSize = True
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
+    Visible = False
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 97
+    Top = 0
+    Width = 297
+    Caption = 'Label1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -80
+    Font.Name = 'Verdana'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+    OnMouseDown = Label1MouseDown
+    OnMouseMove = Label1MouseMove
+    OnMouseUp = Label1MouseUp
+  end
+end
